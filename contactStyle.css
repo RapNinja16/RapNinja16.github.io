@@ -43,8 +43,11 @@ h2{
 }
 
 .container{
-    padding: 0px 700px 0px 0px;
-    margin-left: 500px;
+    display: block;
+    padding: 0px 350px 0px 350px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
 }
 .form-group{
