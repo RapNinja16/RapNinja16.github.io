@@ -1,0 +1,43 @@
+
+**Terms of Service**
+
+Before you register on MERC, please carefully review and agree to the following Terms of Service:
+
+1. **Acceptance of Terms:**
+   - By using MERC, you agree to abide by these Terms of Service and all applicable laws and regulations.
+   - You must be at least 18 years old or the legal age of majority in your jurisdiction to use our services.
+
+2. **Account:**
+   - You are responsible for maintaining the confidentiality of your account credentials and ensuring their security.
+   - You agree to provide accurate and up-to-date information during the registration process.
+   - MERC reserves the right to verify the information you provide and may request additional documentation for verification purposes.
+
+3. **Account Termination:**
+   - MERC reserves the right to suspend or terminate your account for any violations of these Terms of Service or any unlawful activities on the platform.
+   - You may also request the termination of your account at any time. Upon account termination, any remaining balances may be refunded in accordance with our refund policy.
+
+4. **Fees and Taxes:**
+   - Certain services on MERC may require payment of fees. You agree to pay all applicable fees and taxes associated with your use of these services.
+   - Fees are non-refundable, except as otherwise stated in our refund policy.
+   - MERC reserves the right to change its fee structure at any time, and such changes will be communicated to users in advance.
+
+5. **User Conduct:**
+   - You agree to use MERC in a manner consistent with its intended purpose and in compliance with all applicable laws.
+   - You will not engage in any fraudulent, abusive, or disruptive behavior on the platform.
+   - MERC is a community of creative professionals, and we expect all users to treat each other with respect and professionalism.
+
+6. **Intellectual Property:**
+   - MERC respects the intellectual property rights of creators and experts on the platform.
+   - You may not use, reproduce, or distribute content on MERC without the proper authorization from the content owner.
+
+7. **Dispute Resolution:**
+   - In the event of disputes or conflicts, MERC encourages users to first attempt to resolve issues amicably through communication.
+   - If a resolution cannot be reached, you agree to submit disputes to binding arbitration in accordance with our dispute resolution policy.
+
+By using MERC, you acknowledge that you have read, understood, and agreed to these Terms of Service. For more detailed information on our policies and practices, please review our comprehensive [Terms of Service](#link-to-terms-of-service) document.
+
+[ ] I have read and agree to the Terms of Service.
+
+Please replace "#link-to-terms-of-service" with the actual link to your complete Terms of Service document.
+
+This expanded content provides a thorough overview of your Terms of Service, ensuring that users are well-informed about their rights and responsibilities when using your platform.

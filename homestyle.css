@@ -1,0 +1,490 @@
+body {
+    margin: 0;
+    background-image: url("Back/Home/b1.1.png");
+    user-select: none; 
+    
+}
+
+.wrapper {
+    position: relative;
+    height:100vh;
+    overflow-y:auto;
+    overflow-x: hidden;
+    perspective: 10px;
+    margin: 0;
+    
+}
+
+
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+.parallax{
+    pointer-events: none;
+    transform: translate(-50%,-50%);
+}
+
+
+
+.b1{
+    transform: translateZ(-37px) scale(4.9);
+    height: 120%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.b2{
+    transform: translateZ(-26px)scale(3.2);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.b3{
+    transform: translateZ(-22px)scale(3);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    
+}
+.b4{
+    transform: translateZ(-18px)scale(3);
+    height: 100%;
+    width: 100%;
+    position: fixed; 
+    bottom: -5%; /* Position  at the bottom */
+    left: 0; /* Adjust positioning*/
+    z-index: -2;
+}
+.b5{
+    transform: translateZ(-5px)scale(1.8);
+    height: 100%;
+    width: 100%;
+    position: fixed; 
+    bottom:8% ; /* Position at the bottom */
+    left: 0; /* Adjust positioning*/
+    z-index: -2;
+}
+.b6{
+    transform: translateZ(0px)scale(1);
+    height: 400%;
+    width: 100%;
+    position: fixed; 
+    bottom: -275%; /* Position at the bottom */
+    left: 0px; /* Adjust positioning*/
+    z-index: -2;
+    overflow: hidden;
+   
+}
+
+
+.b1,
+.b2
+.b3,
+.b4,
+.b5,
+.b6{
+    object-fit: cover;
+   
+}
+
+section{
+    font-size: 2rem;
+    padding: 2rem;
+
+    color:white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+section img{
+    height: 100%;
+    width: 100%;
+}
+/* Text box Welcome*/
+
+.title{
+    z-index: 222;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    padding: 0px 100% 0px 100%;
+    max-width: 100%;
+    width: 100%;
+    border: 1px solid rgba(255,255,255,0.1);
+    color:#fff;
+    text-shadow: 0 0 5px black;
+    transform: translate(-10px, -50px); /* Text box location*/
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.text-box p{
+    color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: left;
+  
+   
+    
+}
+.text-box h3{
+    border: none;
+    border-bottom: 1px solid white;
+    margin-top:10px;
+    
+}
+
+.text-box{
+    margin-top:100px;
+}
+/*Text Box welcome End*/
+
+
+
+/* NAVIGATION*/
+.navigation{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #05141b;
+    position: sticky; /* Make the container sticky */
+    top: 0; /* Stick to the top of the viewport */
+    z-index: 999;
+    text-align: center;
+    
+
+}
+
+.navigation a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 80px 5px 80px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+
+.navigation h2{
+    display: inline-block;
+
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    padding: 0px 100px 0px 0px;
+    border: none;
+    border-right: 1px solid white;
+    font-size: 20px;
+}
+
+.navigation a:hover{
+    background-color: #abf2f2;
+
+}
+
+.navigation a:hover:not(.active) {
+    background-color: #517070;
+}
+
+
+.footer{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200%;
+    overflow: hidden;
+    background-color: #05141b;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    
+
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 40px 5px 40px;  
+    border-radius: 5px; 
+    transition: background-color 0.3s ease;
+    display:inline-block;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    
+
+}
+
+.footer a:hover{
+    background-color: #abf2f2;
+
+}
+
+.footer a:hover:not(.active) {
+    background-color: #517070;
+}
+
+.footer2{
+    background-color: #05141b;
+}
+.foottext p{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+
+
+/*ICONS*/
+
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+a{
+    text-decoration: none;
+}
+.icon{
+    width: 35px;
+    height: 30px;
+    border-radius: 50px;
+    background: #fff;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: sans-serif;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px rgba(150, 150, 150, .3);
+    transition: all .3s ease-out;
+}
+.icon:hover{
+    width: 120px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+}
+.icon:hover i{
+    color: #fff;
+}
+.icon .fa-facebook-f{
+    color: #1A6ED8;
+}
+.fb:hover{
+    background: #1A6ED8;
+}
+.icon .fa-twitter{
+    color: #1DA1F2;
+}
+.twt:hover{
+    background: #1DA1F2;
+}
+.icon .fa-discord{
+    color: #234aca;
+}
+.lnk:hover{
+    background: #1d4fc5;
+}
+.icon .fa-instagram{
+    color: #f762ff;
+}
+.git:hover{
+    background: #df4dd0;
+}
+.icon .fa-youtube{
+    color: #FE0000;
+}
+.yt:hover{
+    background: #FE0000;
+}
+
+/* responsive */
+@media only screen and (min-width: 320px) and (max-width: 990px) {
+    .main{
+        flex-direction: column;
+    }
+}
+
+
+/*ICONS END*/
+
+
+
+
+/*NAVIGATION END*/
+
+
+/*Text Section*/
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+    color: #fff;
+    
+
+}
+
+.container{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+}
+
+.main-title{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.content{
+    position: relative;
+    width: 1150px;
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+
+}
+
+.content .image{
+    position: relative;
+    width: 800px;
+    height:800px;
+    overflow: hidden;
+    
+}
+
+.content .image img{
+    z-index: 111;
+    position: absolute;
+    top:0;
+    left:-10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+.content .text-box{
+    z-index: 222;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    max-width: 400px;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+    transform: translate(-10px, -50px); /* Text box location*/
+}
+
+.content .text-box h3{
+    font-size: 2em;
+    margin-bottom: 10px;
+   
+}
+
+
+/*Text Section End*/
+
+/* join */
+
+.title2{
+    
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    
+}
+div h1{
+    
+    padding: 15px; 
+    z-index: 222;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    letter-spacing: 2px;
+    max-width: 4000px;
+    border: 1px solid rgba(255,255,255,0.1);
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 5px black;
+    transform: translate(-10px, -50px); /* Text box location*/
+    
+}
+
+.title2 a{
+    background-color: aqua;
+    border:none;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    color:black;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 8px;
+    text-shadow: none;
+    font-family: 'Oswald', sans-serif;
+
+}
+.title2 a:hover{
+    background-color: #296883;
+
+}
+
+/*Join end*/
+
+
+/*Welcome*/
+.title6 {
+    margin-top: 10rem;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 10em;
+    color: white;
+    overflow: hidden;
+    z-index: 222;
+    max-width: 100%;
+    width: 100%;
+    color:#fff;
+    text-shadow: 0 0 10px black;
+    
+ 
+    
+}
+  
+  
+  .title6 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+/*Welcome End*/
+  

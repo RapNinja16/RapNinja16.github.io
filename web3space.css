@@ -1,0 +1,332 @@
+/* Reset some default styles for the body */
+body {
+    background-image: url('Back/Home/CityScrape2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    
+    
+}
+
+/* Make images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* Style the container wrapper */
+.container-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px; /* Add some margin for better spacing */
+}
+
+/* Style the title and logo */
+/* Style the title and logo */
+.title {
+    font-size: 72px;
+    font-weight: bold;
+    margin-top: 0; /* Set margin-top to 0 to eliminate extra space */
+    color: #fff; /* Title text color */
+    display: inline-block; /* Make the title and logo display inline */
+    vertical-align: middle; /* Align vertically in the middle */
+}
+
+.logo2 {
+   
+    width: 50%;
+    height: 80%;
+    margin-top: -50px;
+    margin-left: 5px; /* Add margin-left for spacing */
+    vertical-align: middle; /* Align vertically in the middle */
+}
+
+
+/* Style the containers */
+.containers {
+    display: flex;
+    flex-wrap: wrap; /* Allow containers to wrap to the next row on smaller screens */
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 300px;
+   
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #45263F;
+    color: #ffffff; /* Change text color to white */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px; /* Add rounded corners */
+    
+   
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.container h2 {
+    margin-top: 10px;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;  
+    border: none;
+    border-bottom: 1px solid white;
+    letter-spacing: 2px;
+}
+
+.container p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.container a{
+    display: block;
+    text-decoration: underline; /* Add underline */
+    text-underline-offset: 2px; /* Adjust underline offset if needed */
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;  
+    letter-spacing: 2px;
+    padding: 0px 15px 5px 15px;
+    
+}
+
+
+button {
+  background-color: #05141b;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 20px;  
+  padding: 8px 20px 8px 25px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  letter-spacing: 2px;
+
+  
+}
+
+button:hover{
+  background-color: #203c49;
+  cursor: pointer;
+}
+
+.container:hover {
+    background-color: #852D49;
+    color: #fff; /* Change text color on hover */
+}
+
+/* Style the title */
+h1 {
+    letter-spacing: 4px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;  
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%; /* Full width on smaller screens */
+        margin: 10px 0; /* Adjust margin for spacing */
+    }
+}
+
+
+/* NAVIGATION*/
+.navigation{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #05141b;
+    position: sticky; /* Make the container sticky */
+    top: 0; /* Stick to the top of the viewport */
+    z-index: 999;
+    text-align: center;
+    
+    
+  
+  }
+  
+  .navigation a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 80px 5px 80px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    
+  }
+  .navigation a:hover{
+    background-color: #abf2f2;
+
+}
+.navigation a:hover:not(.active) {
+  background-color: #517070;
+}
+  
+  .navigation h2{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    padding: 0px 100px 0px 0px;
+    border: none;
+    border-right: 1px solid white;
+    font-size: 20px;
+  }
+  
+  .footer{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #05141b;
+    text-align: center;
+    border: none; /* Remove the default border styles */
+    border-top: 1px solid #ccc; /* Set the border as a horizontal line */
+    margin: 20px 0;
+    
+    
+  
+  }
+  .footer a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 40px 5px 40px;  
+    border-radius: 5px; 
+    transition: background-color 0.3s ease;
+    display:inline-block;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+  
+  }
+  
+  .footer a:hover{
+    background-color: #abf2f2;
+  
+  }
+  
+  .footer a:hover:not(.active) {
+    background-color: #517070;
+  }
+  
+  .footer2{
+    background-color: #05141b;
+  }
+  p{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    
+  }
+  .sf{
+    background-color: #05141b;
+  }
+  
+  
+  
+  /*ICONS*/
+  
+  *{margin: 0; padding: 0; box-sizing: border-box;}
+  .main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  
+  a{
+    text-decoration: none;
+  }
+  .icon{
+    width: 35px;
+    height: 30px;
+    border-radius: 50px;
+    background: #fff;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: sans-serif;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px rgba(150, 150, 150, .3);
+    transition: all .3s ease-out;
+  }
+  .icon:hover{
+    width: 120px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+  }
+  .icon:hover i{
+    color: #fff;
+  }
+  .icon .fa-facebook-f{
+    color: #1A6ED8;
+  }
+  .fb:hover{
+    background: #1A6ED8;
+  }
+  .icon .fa-twitter{
+    color: #1DA1F2;
+  }
+  .twt:hover{
+    background: #1DA1F2;
+  }
+  .icon .fa-discord{
+    color: #234aca;
+  }
+  .lnk:hover{
+    background: #1d4fc5;
+  }
+  .icon .fa-instagram{
+    color: #f762ff;
+  }
+  .git:hover{
+    background: #df4dd0;
+  }
+  .icon .fa-youtube{
+    color: #FE0000;
+  }
+  .yt:hover{
+    background: #FE0000;
+  }
+  
+  /* responsive */
+  @media only screen and (min-width: 320px) and (max-width: 990px) {
+    .main{
+        flex-direction: column;
+    }
+  }
+  
+  
+  /*ICONS END*/
+  /*NAVIGATION END*/
+  

@@ -1,0 +1,34 @@
+
+**Privacy Notice**
+
+At MERC, we are committed to protecting your privacy and ensuring the security of your personal information. Please take a moment to review our Privacy Notice to understand how we collect, use, and safeguard your data:
+
+1. **Legal Basis:**
+   - We process your data based on various legal bases, including your consent, the necessity for the performance of our services, and compliance with legal obligations.
+   - You have the right to withdraw your consent at any time, which may affect your ability to use certain features on our platform.
+
+2. **Protected Data:**
+   - When you create an account on MERC, we may collect and store the following types of information:
+     - Personal details (such as your name, email address, and profile picture)
+     - Payment information (if you make transactions on our platform)
+     - Communication history (messages and notifications)
+   - We use this data solely to provide you with a seamless experience on our platform and to connect you with experts for the services you need.
+   - We do not share your personal data with third parties for marketing purposes without your explicit consent.
+
+3. **Security:**
+   - Your security is our top priority. We have implemented stringent security measures to protect your data against unauthorized access, disclosure, or alteration.
+   - Our platform employs encryption protocols and access controls to ensure the confidentiality and integrity of your information.
+
+4. **Data Retention:**
+   - We retain your data only for as long as necessary to fulfill the purposes outlined in this Privacy Notice, unless a longer retention period is required by law.
+   - You have the right to request the deletion of your account and associated data at any time.
+
+5. **Your Rights:**
+   - You have the right to access, rectify, or delete your personal data.
+   - You can manage your communication preferences and settings from your account dashboard.
+   - If you have any questions or concerns about your data, please contact our [Support Team](#contact-support).
+
+By using MERC, you acknowledge that you have read and understood this Privacy Notice. For more detailed information on our data practices, please review our comprehensive [Privacy Policy](#link-to-privacy-policy) before proceeding with registration.
+
+[ ] I have read and agree to the Privacy Notice.
+
